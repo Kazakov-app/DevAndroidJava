@@ -1,4 +1,4 @@
-package Practicum;
+package Practicum.a.SprintFirst;
 import java.util.Random;
 import java.util.Scanner;
 class PracticumDemo {
@@ -238,24 +238,24 @@ class Main {
 
     }
 
-  private static void workTime(int time){
-          while (time <= 20) {
-              System.out.println("Писать код... Клац, клац...");
-              time++;
-              // неплохо бы приготовить ещё чашку кофе
-              if (time % 3 == 0) {
-                  makeCoffee();
-                  System.out.println("Взять кофе и вернуться делать: 'клац... клац...'");
-              }
-          }
-      }
-      private static void playPsTime(int time) {
+    private static void workTime(int time){
+        while (time <= 20) {
+            System.out.println("Писать код... Клац, клац...");
+            time++;
+            // неплохо бы приготовить ещё чашку кофе
+            if (time % 3 == 0) {
+                makeCoffee();
+                System.out.println("Взять кофе и вернуться делать: 'клац... клац...'");
+            }
+        }
+    }
+    private static void playPsTime(int time) {
         System.out.println("Пора бы поиграть в Playstation");
-        while (time <= 24) {
+        while (time < 24) {
             System.out.println("Пиу пи");
             time++;
         }
-      }
+    }
     private static void selectFilmWithAlisa() {
         System.out.println("Алиса, помоги выбрать фильм");
         while (isThisFilmInteresting()) {
@@ -329,5 +329,12 @@ class Main {
         return random != 0;
     }
 }
+
+class MyEx {
+    public static void main(String[] args) {
+
+    }
+}
+
 
 
