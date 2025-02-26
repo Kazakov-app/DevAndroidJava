@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class SmallGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (true) {
             int randomInt = new Random().nextInt(10); // Генерирует новое число от 0 до 9
             int userInput; // Это нужно, чтобы цикл запустился, если Random выдаст 0
             int count = 0;
@@ -51,7 +50,7 @@ public class SmallGame {
 
         }
     }
-}
+
 
 
 

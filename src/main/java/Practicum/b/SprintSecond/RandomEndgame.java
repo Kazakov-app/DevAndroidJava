@@ -49,7 +49,7 @@ public class RandomEndgame {
                     break; // Выход из цикла, если введено корректное значение
                 } else {
                     System.out.println("Пожалуйста, введите 1 для продолжения или 0 для выхода.");
-                    userInput = scanner.nextInt();
+                    //userInput = scanner.nextInt();
                 }
                 } catch (InputMismatchException e) {
                     System.out.println("Неправильный формат ввода.\n"
